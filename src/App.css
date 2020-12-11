@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #251F4F;
+  padding-top: 48px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 12px 0px;
+}
+.layout{
+  padding: 8px 24px;
+}
+.header .text{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.header img{
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+}
+label{
+  font-size: 16px;
+  color: #C7C2E3;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.area{
+  background-color: #1F1851;
+  border-radius: 8px;
+  padding: 8px 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copyarea{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyarea .text{
+  color: #ffffff;
+}
+.copyarea .copy-icon img{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.description{
+  color: #C7C2E3;
+}
+.qr{
+  padding: 16px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 16px 0px 16px 50%;
+  transform: translateX(-50%);
+}
+.copied{
+  color: #C7C2E3;
+}
+textarea{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
 }
