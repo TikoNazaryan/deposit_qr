@@ -25,7 +25,7 @@ function App() {
   }, [])
   
   return (
-    <div className="App">
+    <div className="App" style={{backgroundImage: "url(../background.jpg)"}}>
       <div className="header layout">
         <div className="text">Deposit</div>
         <div> <img src="../bitcoin.svg" alt="Bitcoin" /> </div>

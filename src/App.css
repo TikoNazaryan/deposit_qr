@@ -7,6 +7,11 @@ body{
   padding-top: 48px;
 }
 
+.App{
+  background-size: 101%;
+  background-position: center;
+}
+
 *{
   font-family: 'Roboto', sans-serif;
 }
